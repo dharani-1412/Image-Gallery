@@ -16,7 +16,7 @@ const fullscreenImg = document.getElementById("fullscreen-img");
 const closeModal = modal.querySelector(".close");
 
 // Function to fetch images from API
-async function fetchImages(query = "nature") {
+async function fetchImages(query = "vintage") {
     const url = `https://api.pexels.com/v1/search?query=${query}&per_page=30`;
     
     const response = await fetch(url, {
